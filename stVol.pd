@@ -1,0 +1,17 @@
+#N canvas 1830 1023 1920 989 12;
+#X obj 88 161 inlet~;
+#X obj 88 194 *~;
+#X obj 88 226 outlet~;
+#X obj 109 108 hsl 162 19 0 1 0 0 empty empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 152 161 inlet~;
+#X obj 152 194 *~;
+#X obj 152 226 outlet~;
+#X obj 322 162 inlet;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 1 1;
+#X connect 3 0 5 1;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 7 0 3 0;
+#X coords 0 -1 1 1 180 35 2 100 100;
